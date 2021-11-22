@@ -15,7 +15,7 @@ export class WrapperComponent implements OnInit {
     {name: 'Use Class', href: '/demo/use-class'},
     {name: 'Use Factory', href: '/demo/use-factory'},
     {name: 'InJection token', href: '/demo/use-factory'}, 
-    {name: 'Dynamic Component Loading', href: '/demo/use-factory'},
+    {name: 'Dynamic Component Loading', href: '/demo/dynamic-component-loading'},
     {name: 'Host Binding', href: '/demo/use-factory'},
     {name: 'Subject Service', href: '/demo/use-factory'},
     {name: 'Ng Template Outlet', href: '/demo/use-factory'}

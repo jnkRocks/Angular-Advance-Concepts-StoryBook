@@ -11,11 +11,14 @@ import { DynamicComponentLoadingComponent } from './components/dynamic-component
 import { HostBindingComponent } from './components/host-binding/host-binding.component';
 import { SubjectServiceComponent } from './components/subject-service/subject-service.component';
 import { NgTemplateOutletComponent } from './components/ng-template-outlet/ng-template-outlet.component';
- 
+import { ActorComponent } from './components/actor/actor.component';
+import { SportsManComponent } from './components/sports-man/sports-man.component';
+
 
 @NgModule({
   declarations: [
-    DependencyInjectionProvidersComponent, WrapperComponent, UseFactoryComponent, UseClassComponent, InjectionTokenComponent, DynamicComponentLoadingComponent, HostBindingComponent, SubjectServiceComponent, NgTemplateOutletComponent
+    DependencyInjectionProvidersComponent, WrapperComponent, UseFactoryComponent, UseClassComponent, InjectionTokenComponent, DynamicComponentLoadingComponent,
+     HostBindingComponent, SubjectServiceComponent, NgTemplateOutletComponent, ActorComponent, SportsManComponent
   ],
   imports: [
     CommonModule,
