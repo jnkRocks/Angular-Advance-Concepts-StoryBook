@@ -1,0 +1,40 @@
+.sidebar-3 { 
+    border-right: 1px solid rgba(0, 0, 0, 0.125); 
+    height: 100%;
+    width: inherit;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+  } 
+
+  .toggle-sidebar{
+    float:left;
+    margin-left: -5px;
+  }
+
+  .main-shrink{
+    padding-left: 270px;
+  }
+
+  .header{
+      display: block;
+      padding:20px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  .ul{
+    list-style-type: none;
+  }
+
+  .li{
+      padding: 15px;
+      text-decoration: none;
+  }
+
+  .content-container{
+    margin-top: 20px;
+    padding: 5px;
+  }

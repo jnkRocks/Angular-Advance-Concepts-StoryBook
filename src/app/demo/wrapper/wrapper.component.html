@@ -1,0 +1,29 @@
+ 
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-12">
+            Angular Concepts Story Book
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div *ngIf="!isSideBarCollapsed" [ngClass]="{'': !isSideBarCollapsed,'col-2': !isSideBarCollapsed }">
+            <div class="sidebar-3">
+                <ul class="list-group">
+                    <li class="list-group-item" *ngFor="let wrapper of wrapperList">
+                        <a [routerLink]="wrapper.href">{{wrapper.name}}</a> 
+                    </li>
+                     
+                </ul>
+            </div>
+        </div>
+        <div [ngClass]="{ 'col-10': !isSideBarCollapsed, 'col-12': isSideBarCollapsed  }">
+             <div class="content-container"> 
+                <router-outlet></router-outlet> 
+            </div>
+        </div>
+
+
+    </div>
+</div>
