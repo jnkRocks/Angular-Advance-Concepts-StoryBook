@@ -13,12 +13,14 @@ import { SubjectServiceComponent } from './components/subject-service/subject-se
 import { NgTemplateOutletComponent } from './components/ng-template-outlet/ng-template-outlet.component';
 import { ActorComponent } from './components/actor/actor.component';
 import { SportsManComponent } from './components/sports-man/sports-man.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { UseExistingComponent } from './components/use-existing/use-existing.component';
 
 
 @NgModule({
   declarations: [
     DependencyInjectionProvidersComponent, WrapperComponent, UseFactoryComponent, UseClassComponent, InjectionTokenComponent, DynamicComponentLoadingComponent,
-     HostBindingComponent, SubjectServiceComponent, NgTemplateOutletComponent, ActorComponent, SportsManComponent
+     HostBindingComponent, SubjectServiceComponent, NgTemplateOutletComponent, ActorComponent, SportsManComponent, IntroComponent, UseExistingComponent
   ],
   imports: [
     CommonModule,

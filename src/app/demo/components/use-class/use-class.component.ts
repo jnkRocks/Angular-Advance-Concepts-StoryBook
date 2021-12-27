@@ -20,5 +20,14 @@ export class UseClassComponent implements OnInit {
     //   Value from New Service, i.e this.newService.text: old service
   }
 
+  html = `Use Class provider can be used to specify an existing entity to be used for a service. In this example we have created 2 service old and new and we will be configuring the providers in such a way that in the console 
+  You will notice both logs "Old Service" value.`;
 
+  js = `@NgModule({
+    ..
+    providers: [
+      { provide: NewService, useExisting: OldService }
+    ],
+    ..
+  })`;
 }

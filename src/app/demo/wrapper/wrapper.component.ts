@@ -11,10 +11,12 @@ export class WrapperComponent implements OnInit {
   isSideBarCollapsed  = false;
 
   wrapperList = [
+    {name: 'Intro', href: '/demo/intro'}, 
     {name: 'DI', href: '/demo/dependency-injection'},
-    {name: 'Use Class', href: '/demo/use-class'},
+     {name: 'Use Existing', href: '/demo/use-existing'},
+
     {name: 'Use Factory', href: '/demo/use-factory'},
-    {name: 'InJection token', href: '/demo/use-factory'}, 
+    {name: 'InJection token', href: '/demo/injection-token'}, 
     {name: 'Dynamic Component Loading', href: '/demo/dynamic-component-loading'},
     {name: 'Host Binding', href: '/demo/use-factory'},
     {name: 'Subject Service', href: '/demo/use-factory'},

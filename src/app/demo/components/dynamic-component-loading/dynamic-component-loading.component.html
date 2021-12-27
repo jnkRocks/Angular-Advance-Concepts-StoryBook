@@ -1,5 +1,50 @@
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 1}" (click)="tabId=1" aria-current="page">Root component
+            HTML</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 2}" (click)="tabId=2">Root component TS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 3}" (click)="tabId=3">Sports-man component HTML</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 4}" (click)="tabId=4">Sports-man component TS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 5}" (click)="tabId=5">Actor component HTML</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': tabId === 6}" (click)="tabId=6">Actor component TS</a>
+    </li>
+</ul>
+
+<pre class="prettyprint" *ngIf="tabId==1">
+    {{html}}
+</pre>
+
+
+<pre class="prettyprint" *ngIf="tabId==2">
+    {{js}}
+</pre>
+
+<pre class="prettyprint" *ngIf="tabId==3">
+    {{sportsManHtml}}
+</pre>
+
+<pre class="prettyprint" *ngIf="tabId==4">
+    {{sportsManTs}}
+</pre>
+
+<pre class="prettyprint" *ngIf="tabId==5">
+    {{actorHtml}}
+</pre>
+
+<pre class="prettyprint" *ngIf="tabId==6">
+    {{actorTs}}
+</pre>
+
 <div class="ad-banner-example">
     <ng-container #vc></ng-container>
 </div>
-
- 
