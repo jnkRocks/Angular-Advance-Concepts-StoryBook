@@ -35,7 +35,7 @@ export class UseFactoryComponent implements OnInit {
       deps: [Logger, UserService]
     };
 
-    // To use it in a particular call we can call it like below:
+    // To use it we can inject it inside the providers array as below:
     Component({
       selector: 'app-heroes',
       providers: [ heroServiceProvider ],
